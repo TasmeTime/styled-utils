@@ -16,7 +16,7 @@ export const RowCss = css<RowProps>`
   margin-top: ${(p) => (p.mt ? p.mt : '')};
 `;
 
-const Row = styled.div<RowProps>`
+export const Row = styled.div<RowProps>`
   display: flex;
   position: ${(p) => (p.pos ? p.pos : '')};
   z-index: ${(p) => (p.zi ? p.zi : '')};
@@ -37,5 +37,3 @@ export const CRow = styled(Row)`
   justify-content: center;
   align-items: center;
 `;
-
-export default Row;

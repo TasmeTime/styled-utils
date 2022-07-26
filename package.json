@@ -1,12 +1,12 @@
 {
   "name": "tt-styled-utils",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/main.js",
   "type": "lib/types.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm run build && npm publish"
   },
   "keywords": [
     "styled-components"
@@ -16,7 +16,7 @@
   "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
   "lint": "tslint -p tsconfig.json",
   "files": [
-    "lib/**/*"
+    "lib"
   ],
   "dependencies": {
     "styled-components": "^5.3.5"
