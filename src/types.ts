@@ -13,3 +13,7 @@ export interface RowProps {
   zi?: number | string;
   padding?: string;
 }
+export interface IGenerateCode {
+  length?: number;
+  charSet?: string;
+}
