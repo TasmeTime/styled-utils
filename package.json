@@ -6,7 +6,7 @@
   "type": "lib/types.d.ts",
   "scripts": {
     "build": "tsc",
-    "publish": "npm run build && npm publish"
+    "pub": "npm run build && npm publish"
   },
   "keywords": [
     "styled-components"
