@@ -1,6 +1,6 @@
 {
   "name": "tt-styled-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/main.js",
   "type": "lib/types.d.ts",
